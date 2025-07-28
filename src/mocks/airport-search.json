@@ -1,0 +1,131 @@
+{
+  "status": true,
+  "timestamp": 1753553822470,
+  "data": [
+    {
+      "skyId": "AGU",
+      "entityId": "95673515",
+      "presentation": {
+        "title": "Aguascalientes",
+        "suggestionTitle": "Aguascalientes (AGU)",
+        "subtitle": "Mexico"
+      },
+      "navigation": {
+        "entityId": "95673515",
+        "entityType": "AIRPORT",
+        "localizedName": "Aguascalientes",
+        "relevantFlightParams": {
+          "skyId": "AGU",
+          "entityId": "95673515",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Aguascalientes"
+        },
+        "relevantHotelParams": {
+          "entityId": "27547485",
+          "entityType": "CITY",
+          "localizedName": "Aguascalientes"
+        }
+      }
+    },
+    {
+      "skyId": "BQN",
+      "entityId": "128668345",
+      "presentation": {
+        "title": "Aguadilla",
+        "suggestionTitle": "Aguadilla (BQN)",
+        "subtitle": "Puerto Rico"
+      },
+      "navigation": {
+        "entityId": "128668345",
+        "entityType": "AIRPORT",
+        "localizedName": "Aguadilla",
+        "relevantFlightParams": {
+          "skyId": "BQN",
+          "entityId": "128668345",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Aguadilla"
+        },
+        "relevantHotelParams": {
+          "entityId": "27539547",
+          "entityType": "CITY",
+          "localizedName": "Aguadilla"
+        }
+      }
+    },
+    {
+      "skyId": "BXU",
+      "entityId": "128668354",
+      "presentation": {
+        "title": "Bancasi (Butuan)",
+        "suggestionTitle": "Bancasi (Butuan) (BXU)",
+        "subtitle": "Philippines"
+      },
+      "navigation": {
+        "entityId": "128668354",
+        "entityType": "AIRPORT",
+        "localizedName": "Bancasi (Butuan)",
+        "relevantFlightParams": {
+          "skyId": "BXU",
+          "entityId": "128668354",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Bancasi (Butuan)"
+        },
+        "relevantHotelParams": {
+          "entityId": "27539654",
+          "entityType": "CITY",
+          "localizedName": "Butuan"
+        }
+      }
+    },
+    {
+      "skyId": "XQP",
+      "entityId": "128669149",
+      "presentation": {
+        "title": "Quepos",
+        "suggestionTitle": "Quepos (XQP)",
+        "subtitle": "Costa Rica"
+      },
+      "navigation": {
+        "entityId": "128669149",
+        "entityType": "AIRPORT",
+        "localizedName": "Quepos",
+        "relevantFlightParams": {
+          "skyId": "XQP",
+          "entityId": "128669149",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Quepos"
+        },
+        "relevantHotelParams": {
+          "entityId": "27536321",
+          "entityType": "CITY",
+          "localizedName": "Quepos"
+        }
+      }
+    },
+    {
+      "skyId": "HAY",
+      "entityId": "216766825",
+      "presentation": {
+        "title": "Hacaritama",
+        "suggestionTitle": "Hacaritama (HAY)",
+        "subtitle": "Colombia"
+      },
+      "navigation": {
+        "entityId": "216766825",
+        "entityType": "AIRPORT",
+        "localizedName": "Hacaritama",
+        "relevantFlightParams": {
+          "skyId": "HAY",
+          "entityId": "216766825",
+          "flightPlaceType": "AIRPORT",
+          "localizedName": "Hacaritama"
+        },
+        "relevantHotelParams": {
+          "entityId": "45787536",
+          "entityType": "CITY",
+          "localizedName": "Aguachica"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1611 @@
+{
+  "status": true,
+  "timestamp": 1753674830565,
+  "data": {
+    "context": {
+      "status": "incomplete",
+      "sessionId": "KLUv_WAwACUHACaRNCPApwP_e79XPZdTtUqZZKKtvRuQpJQpyZQDu50a3dZKD1EiAioAKwArAJkg24Ssnt6vmL0dgsKkdzC294_9yvewc73eXM83G3PridoclECKBrAsUExjuusdVd1rBV2ft66rSRtj1S4gB2WjLAkBBuoxiUAkjD_6qh73tj53OQ-bab2Xzh2Lil1qBAsDmMbpOzqoVKt0LbbsfZvb25Ld0-qYHXRAqgksDCkBCYRiYOgifAxXd6X7dnr_psLo-ZATVIaMRsNxaJ7Vv74-sbXkpp0uqgQAnEM9rkHDGzZc4ExJAQ==",
+      "totalResults": 9
+    },
+    "itineraries": [
+      {
+        "id": "9325-2507281907--32733-1-12712-2507290620",
+        "price": {
+          "raw": 338.58,
+          "formatted": "$339",
+          "pricingOptionId": "xHm0pSjKQ96C"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281907--32733-1-12712-2507290620",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 553,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T19:07:00",
+            "arrival": "2025-07-29T06:20:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32733,
+                  "alternateId": "AM",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+                  "name": "Aeromexico"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-13993-2507281907-2507282030--32733",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T19:07:00",
+                "arrival": "2025-07-28T20:30:00",
+                "durationInMinutes": 83,
+                "flightNumber": "1639",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "13993-12712-2507282315-2507290620--32733",
+                "origin": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-28T23:15:00",
+                "arrival": "2025-07-29T06:20:00",
+                "durationInMinutes": 305,
+                "flightNumber": "400",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 22.180725
+        },
+        "fareAttributes": {},
+        "tags": ["cheapest", "third_shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.999
+      },
+      {
+        "id": "9325-2507281907--32733-1-12712-2507291400",
+        "price": {
+          "raw": 338.29,
+          "formatted": "$339",
+          "pricingOptionId": "JMQLJICo0V8r"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281907--32733-1-12712-2507291400",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1013,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T19:07:00",
+            "arrival": "2025-07-29T14:00:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32733,
+                  "alternateId": "AM",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+                  "name": "Aeromexico"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-13993-2507281907-2507282030--32733",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T19:07:00",
+                "arrival": "2025-07-28T20:30:00",
+                "durationInMinutes": 83,
+                "flightNumber": "1639",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "13993-12712-2507290701-2507291400--32733",
+                "origin": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-29T07:01:00",
+                "arrival": "2025-07-29T14:00:00",
+                "durationInMinutes": 299,
+                "flightNumber": "408",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 27.768099
+        },
+        "fareAttributes": {},
+        "tags": ["second_cheapest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.697163
+      },
+      {
+        "id": "9325-2507280956--31688,-32171-1-12712-2507282100",
+        "price": {
+          "raw": 1547.1,
+          "formatted": "$1,548",
+          "pricingOptionId": "VHck3fGHSPY0"
+        },
+        "legs": [
+          {
+            "id": "9325-2507280956--31688,-32171-1-12712-2507282100",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 544,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T09:56:00",
+            "arrival": "2025-07-28T21:00:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31688,
+                  "alternateId": "Y4",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/Y4.png",
+                  "name": "Volaris"
+                },
+                {
+                  "id": -32171,
+                  "alternateId": "B6",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                  "name": "jetBlue"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-10803-2507280956-2507281328--31688",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "CUN",
+                  "displayCode": "CUN",
+                  "parent": {
+                    "flightPlaceId": "CUNA",
+                    "displayCode": "CUN",
+                    "name": "Cancun",
+                    "type": "City"
+                  },
+                  "name": "Cancun",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T09:56:00",
+                "arrival": "2025-07-28T13:28:00",
+                "durationInMinutes": 152,
+                "flightNumber": "3621",
+                "marketingCarrier": {
+                  "id": -31688,
+                  "name": "Volaris",
+                  "alternateId": "Y4",
+                  "allianceId": 0,
+                  "displayCode": "Y4"
+                },
+                "operatingCarrier": {
+                  "id": -31688,
+                  "name": "Volaris",
+                  "alternateId": "Y4",
+                  "allianceId": 0,
+                  "displayCode": "Y4"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "10803-12712-2507281555-2507282100--32171",
+                "origin": {
+                  "flightPlaceId": "CUN",
+                  "displayCode": "CUN",
+                  "parent": {
+                    "flightPlaceId": "CUNA",
+                    "displayCode": "CUN",
+                    "name": "Cancun",
+                    "type": "City"
+                  },
+                  "name": "Cancun",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-28T15:55:00",
+                "arrival": "2025-07-28T21:00:00",
+                "durationInMinutes": 245,
+                "flightNumber": "1052",
+                "marketingCarrier": {
+                  "id": -32171,
+                  "name": "jetBlue",
+                  "alternateId": "B6",
+                  "allianceId": 0,
+                  "displayCode": "B6"
+                },
+                "operatingCarrier": {
+                  "id": -32171,
+                  "name": "jetBlue",
+                  "alternateId": "B6",
+                  "allianceId": 0,
+                  "displayCode": "B6"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": true,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "tags": ["second_shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.276065
+      },
+      {
+        "id": "9325-2507281907--32733,-32540-2-12712-2507300215",
+        "price": {
+          "raw": 515,
+          "formatted": "$515",
+          "pricingOptionId": "kKLltJN-Zfk3"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281907--32733,-32540-2-12712-2507300215",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1748,
+            "stopCount": 2,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T19:07:00",
+            "arrival": "2025-07-30T02:15:00",
+            "timeDeltaInDays": 2,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32733,
+                  "alternateId": "AM",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+                  "name": "Aeromexico"
+                },
+                {
+                  "id": -32540,
+                  "alternateId": "AV",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AV.png",
+                  "name": "Avianca"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -31794,
+                  "alternateId": "TA",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TA.png",
+                  "name": "Avianca El Salvador"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-13993-2507281907-2507282030--32733",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T19:07:00",
+                "arrival": "2025-07-28T20:30:00",
+                "durationInMinutes": 83,
+                "flightNumber": "1639",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "13993-11990-2507290835-2507291046--32733",
+                "origin": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "GUA",
+                  "displayCode": "GUA",
+                  "parent": {
+                    "flightPlaceId": "GUAA",
+                    "displayCode": "GUA",
+                    "name": "Guatemala City",
+                    "type": "City"
+                  },
+                  "name": "Guatemala City",
+                  "type": "Airport",
+                  "country": "Guatemala"
+                },
+                "departure": "2025-07-29T08:35:00",
+                "arrival": "2025-07-29T10:46:00",
+                "durationInMinutes": 131,
+                "flightNumber": "672",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "11990-12712-2507291935-2507300215--32540",
+                "origin": {
+                  "flightPlaceId": "GUA",
+                  "displayCode": "GUA",
+                  "parent": {
+                    "flightPlaceId": "GUAA",
+                    "displayCode": "GUA",
+                    "name": "Guatemala City",
+                    "type": "City"
+                  },
+                  "name": "Guatemala City",
+                  "type": "Airport",
+                  "country": "Guatemala"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-29T19:35:00",
+                "arrival": "2025-07-30T02:15:00",
+                "durationInMinutes": 280,
+                "flightNumber": "550",
+                "marketingCarrier": {
+                  "id": -32540,
+                  "name": "Avianca",
+                  "alternateId": "AV",
+                  "allianceId": -31999,
+                  "displayCode": "AV"
+                },
+                "operatingCarrier": {
+                  "id": -31794,
+                  "name": "Avianca El Salvador",
+                  "alternateId": "TA",
+                  "allianceId": 0,
+                  "displayCode": "TA"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": true,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "tags": ["third_cheapest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.23307
+      },
+      {
+        "id": "9325-2507281907--32733,-32171-2-12712-2507292215",
+        "price": {
+          "raw": 571,
+          "formatted": "$571",
+          "pricingOptionId": "3jXlrWXVsepS"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281907--32733,-32171-2-12712-2507292215",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1508,
+            "stopCount": 2,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T19:07:00",
+            "arrival": "2025-07-29T22:15:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32733,
+                  "alternateId": "AM",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+                  "name": "Aeromexico"
+                },
+                {
+                  "id": -32171,
+                  "alternateId": "B6",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+                  "name": "jetBlue"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-13993-2507281907-2507282030--32733",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T19:07:00",
+                "arrival": "2025-07-28T20:30:00",
+                "durationInMinutes": 83,
+                "flightNumber": "1639",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "13993-11990-2507290835-2507291046--32733",
+                "origin": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "GUA",
+                  "displayCode": "GUA",
+                  "parent": {
+                    "flightPlaceId": "GUAA",
+                    "displayCode": "GUA",
+                    "name": "Guatemala City",
+                    "type": "City"
+                  },
+                  "name": "Guatemala City",
+                  "type": "Airport",
+                  "country": "Guatemala"
+                },
+                "departure": "2025-07-29T08:35:00",
+                "arrival": "2025-07-29T10:46:00",
+                "durationInMinutes": 131,
+                "flightNumber": "672",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "11990-12712-2507291523-2507292215--32171",
+                "origin": {
+                  "flightPlaceId": "GUA",
+                  "displayCode": "GUA",
+                  "parent": {
+                    "flightPlaceId": "GUAA",
+                    "displayCode": "GUA",
+                    "name": "Guatemala City",
+                    "type": "City"
+                  },
+                  "name": "Guatemala City",
+                  "type": "Airport",
+                  "country": "Guatemala"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-29T15:23:00",
+                "arrival": "2025-07-29T22:15:00",
+                "durationInMinutes": 292,
+                "flightNumber": "1329",
+                "marketingCarrier": {
+                  "id": -32171,
+                  "name": "jetBlue",
+                  "alternateId": "B6",
+                  "allianceId": 0,
+                  "displayCode": "B6"
+                },
+                "operatingCarrier": {
+                  "id": -32171,
+                  "name": "jetBlue",
+                  "alternateId": "B6",
+                  "allianceId": 0,
+                  "displayCode": "B6"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": true,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.223186
+      },
+      {
+        "id": "9325-2507281907--32733-1-11442-2507292200",
+        "price": {
+          "raw": 812.7,
+          "formatted": "$813",
+          "pricingOptionId": "LiY7o13OgPmk"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281907--32733-1-11442-2507292200",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "EWR",
+              "entityId": "95565059",
+              "name": "New York Newark",
+              "displayCode": "EWR",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1493,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T19:07:00",
+            "arrival": "2025-07-29T22:00:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32733,
+                  "alternateId": "AM",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+                  "name": "Aeromexico"
+                }
+              ],
+              "operationType": "fully_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-13993-2507281907-2507282030--32733",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T19:07:00",
+                "arrival": "2025-07-28T20:30:00",
+                "durationInMinutes": 83,
+                "flightNumber": "1639",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "13993-11442-2507291445-2507292200--32733",
+                "origin": {
+                  "flightPlaceId": "MEX",
+                  "displayCode": "MEX",
+                  "parent": {
+                    "flightPlaceId": "MEXA",
+                    "displayCode": "MEX",
+                    "name": "Mexico City",
+                    "type": "City"
+                  },
+                  "name": "Mexico City Juarez International",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "EWR",
+                  "displayCode": "EWR",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York Newark",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-29T14:45:00",
+                "arrival": "2025-07-29T22:00:00",
+                "durationInMinutes": 315,
+                "flightNumber": "410",
+                "marketingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "operatingCarrier": {
+                  "id": -32733,
+                  "name": "Aeromexico",
+                  "alternateId": "AM",
+                  "allianceId": -31998,
+                  "displayCode": "AM"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "eco": {
+          "ecoContenderDelta": 19.83456
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.20246
+      },
+      {
+        "id": "9325-2507280956--31688,-32695-2-12712-2507290950",
+        "price": {
+          "raw": 630.53,
+          "formatted": "$631",
+          "pricingOptionId": "fpLKD_sNsA9O"
+        },
+        "legs": [
+          {
+            "id": "9325-2507280956--31688,-32695-2-12712-2507290950",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy",
+              "displayCode": "JFK",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 1314,
+            "stopCount": 2,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T09:56:00",
+            "arrival": "2025-07-29T09:50:00",
+            "timeDeltaInDays": 1,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -31688,
+                  "alternateId": "Y4",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/Y4.png",
+                  "name": "Volaris"
+                },
+                {
+                  "id": -32695,
+                  "alternateId": "AC",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                  "name": "Air Canada"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -31606,
+                  "alternateId": "ZD",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/ZD.png",
+                  "name": "Air Canada Rouge"
+                },
+                {
+                  "id": -31542,
+                  "alternateId": "!$",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                  "name": "Air Canada Express - Jazz"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-10803-2507280956-2507281328--31688",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "CUN",
+                  "displayCode": "CUN",
+                  "parent": {
+                    "flightPlaceId": "CUNA",
+                    "displayCode": "CUN",
+                    "name": "Cancun",
+                    "type": "City"
+                  },
+                  "name": "Cancun",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "departure": "2025-07-28T09:56:00",
+                "arrival": "2025-07-28T13:28:00",
+                "durationInMinutes": 152,
+                "flightNumber": "3621",
+                "marketingCarrier": {
+                  "id": -31688,
+                  "name": "Volaris",
+                  "alternateId": "Y4",
+                  "allianceId": 0,
+                  "displayCode": "Y4"
+                },
+                "operatingCarrier": {
+                  "id": -31688,
+                  "name": "Volaris",
+                  "alternateId": "Y4",
+                  "allianceId": 0,
+                  "displayCode": "Y4"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "10803-18467-2507282045-2507290145--32695",
+                "origin": {
+                  "flightPlaceId": "CUN",
+                  "displayCode": "CUN",
+                  "parent": {
+                    "flightPlaceId": "CUNA",
+                    "displayCode": "CUN",
+                    "name": "Cancun",
+                    "type": "City"
+                  },
+                  "name": "Cancun",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "YYZ",
+                  "displayCode": "YYZ",
+                  "parent": {
+                    "flightPlaceId": "YTOA",
+                    "displayCode": "YTO",
+                    "name": "Toronto",
+                    "type": "City"
+                  },
+                  "name": "Toronto Pearson International",
+                  "type": "Airport",
+                  "country": "Canada"
+                },
+                "departure": "2025-07-28T20:45:00",
+                "arrival": "2025-07-29T01:45:00",
+                "durationInMinutes": 240,
+                "flightNumber": "1813",
+                "marketingCarrier": {
+                  "id": -32695,
+                  "name": "Air Canada",
+                  "alternateId": "AC",
+                  "allianceId": -31999,
+                  "displayCode": "AC"
+                },
+                "operatingCarrier": {
+                  "id": -31606,
+                  "name": "Air Canada Rouge",
+                  "alternateId": "ZD",
+                  "allianceId": 0,
+                  "displayCode": "RV"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "18467-12712-2507290800-2507290950--32695",
+                "origin": {
+                  "flightPlaceId": "YYZ",
+                  "displayCode": "YYZ",
+                  "parent": {
+                    "flightPlaceId": "YTOA",
+                    "displayCode": "YTO",
+                    "name": "Toronto",
+                    "type": "City"
+                  },
+                  "name": "Toronto Pearson International",
+                  "type": "Airport",
+                  "country": "Canada"
+                },
+                "destination": {
+                  "flightPlaceId": "JFK",
+                  "displayCode": "JFK",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York John F. Kennedy",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-29T08:00:00",
+                "arrival": "2025-07-29T09:50:00",
+                "durationInMinutes": 110,
+                "flightNumber": "8552",
+                "marketingCarrier": {
+                  "id": -32695,
+                  "name": "Air Canada",
+                  "alternateId": "AC",
+                  "allianceId": -31999,
+                  "displayCode": "AC"
+                },
+                "operatingCarrier": {
+                  "id": -31542,
+                  "name": "Air Canada Express - Jazz",
+                  "alternateId": "!$",
+                  "allianceId": 0,
+                  "displayCode": "!$"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": true,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.186071
+      },
+      {
+        "id": "9325-2507281305--32573-1-13522-2507282335",
+        "price": {
+          "raw": 3244.04,
+          "formatted": "$3,245",
+          "pricingOptionId": "8OJXqmwXPgUR"
+        },
+        "legs": [
+          {
+            "id": "9325-2507281305--32573-1-13522-2507282335",
+            "origin": {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes",
+              "displayCode": "AGU",
+              "city": "Aguascalientes",
+              "country": "Mexico",
+              "isHighlighted": false
+            },
+            "destination": {
+              "id": "LGA",
+              "entityId": "95565057",
+              "name": "New York LaGuardia",
+              "displayCode": "LGA",
+              "city": "New York",
+              "country": "United States",
+              "isHighlighted": false
+            },
+            "durationInMinutes": 510,
+            "stopCount": 1,
+            "isSmallestStops": false,
+            "departure": "2025-07-28T13:05:00",
+            "arrival": "2025-07-28T23:35:00",
+            "timeDeltaInDays": 0,
+            "carriers": {
+              "marketing": [
+                {
+                  "id": -32573,
+                  "alternateId": "AA",
+                  "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+                  "name": "American Airlines"
+                }
+              ],
+              "operating": [
+                {
+                  "id": -31007,
+                  "name": "Envoy Air As American Eagle"
+                }
+              ],
+              "operationType": "partially_operated"
+            },
+            "segments": [
+              {
+                "id": "9325-10968-2507281305-2507281630--32573",
+                "origin": {
+                  "flightPlaceId": "AGU",
+                  "displayCode": "AGU",
+                  "parent": {
+                    "flightPlaceId": "AGUA",
+                    "displayCode": "AGU",
+                    "name": "Aguascalientes",
+                    "type": "City"
+                  },
+                  "name": "Aguascalientes",
+                  "type": "Airport",
+                  "country": "Mexico"
+                },
+                "destination": {
+                  "flightPlaceId": "DFW",
+                  "displayCode": "DFW",
+                  "parent": {
+                    "flightPlaceId": "DFWA",
+                    "displayCode": "DFW",
+                    "name": "Dallas",
+                    "type": "City"
+                  },
+                  "name": "Dallas Fort Worth International",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-28T13:05:00",
+                "arrival": "2025-07-28T16:30:00",
+                "durationInMinutes": 145,
+                "flightNumber": "3728",
+                "marketingCarrier": {
+                  "id": -32573,
+                  "name": "American Airlines",
+                  "alternateId": "AA",
+                  "allianceId": -32000,
+                  "displayCode": "AA"
+                },
+                "operatingCarrier": {
+                  "id": -31007,
+                  "name": "Envoy Air As American Eagle",
+                  "alternateId": "",
+                  "allianceId": 0,
+                  "displayCode": ""
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              },
+              {
+                "id": "10968-13522-2507281900-2507282335--32573",
+                "origin": {
+                  "flightPlaceId": "DFW",
+                  "displayCode": "DFW",
+                  "parent": {
+                    "flightPlaceId": "DFWA",
+                    "displayCode": "DFW",
+                    "name": "Dallas",
+                    "type": "City"
+                  },
+                  "name": "Dallas Fort Worth International",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "destination": {
+                  "flightPlaceId": "LGA",
+                  "displayCode": "LGA",
+                  "parent": {
+                    "flightPlaceId": "NYCA",
+                    "displayCode": "NYC",
+                    "name": "New York",
+                    "type": "City"
+                  },
+                  "name": "New York LaGuardia",
+                  "type": "Airport",
+                  "country": "United States"
+                },
+                "departure": "2025-07-28T19:00:00",
+                "arrival": "2025-07-28T23:35:00",
+                "durationInMinutes": 215,
+                "flightNumber": "2708",
+                "marketingCarrier": {
+                  "id": -32573,
+                  "name": "American Airlines",
+                  "alternateId": "AA",
+                  "allianceId": -32000,
+                  "displayCode": "AA"
+                },
+                "operatingCarrier": {
+                  "id": -32573,
+                  "name": "American Airlines",
+                  "alternateId": "AA",
+                  "allianceId": -32000,
+                  "displayCode": "AA"
+                },
+                "transportMode": "TRANSPORT_MODE_FLIGHT"
+              }
+            ]
+          }
+        ],
+        "isSelfTransfer": false,
+        "isProtectedSelfTransfer": false,
+        "farePolicy": {
+          "isChangeAllowed": false,
+          "isPartiallyChangeable": false,
+          "isCancellationAllowed": false,
+          "isPartiallyRefundable": false
+        },
+        "fareAttributes": {},
+        "tags": ["shortest"],
+        "isMashUp": false,
+        "hasFlexibleOptions": false,
+        "score": 0.092
+      }
+    ],
+    "messages": [],
+    "filterStats": {
+      "duration": {
+        "min": 510,
+        "max": 1748,
+        "multiCityMin": 510,
+        "multiCityMax": 1748
+      },
+      "total": 9,
+      "hasCityOpenJaw": false,
+      "multipleCarriers": {
+        "minPrice": "$515",
+        "rawMinPrice": null
+      },
+      "airports": [
+        {
+          "city": "Aguascalientes",
+          "airports": [
+            {
+              "id": "AGU",
+              "entityId": "95673515",
+              "name": "Aguascalientes"
+            }
+          ]
+        },
+        {
+          "city": "New York",
+          "airports": [
+            {
+              "id": "JFK",
+              "entityId": "95565058",
+              "name": "New York John F. Kennedy"
+            },
+            {
+              "id": "LGA",
+              "entityId": "95565057",
+              "name": "New York LaGuardia"
+            },
+            {
+              "id": "EWR",
+              "entityId": "95565059",
+              "name": "New York Newark"
+            }
+          ]
+        }
+      ],
+      "carriers": [
+        {
+          "id": -32733,
+          "alternateId": "AM",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AM.png",
+          "name": "Aeromexico",
+          "minPrice": "$339",
+          "allianceId": -31998
+        },
+        {
+          "id": -32695,
+          "alternateId": "AC",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+          "name": "Air Canada",
+          "allianceId": -31999
+        },
+        {
+          "id": -32573,
+          "alternateId": "AA",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AA.png",
+          "name": "American Airlines",
+          "minPrice": "$3,245",
+          "allianceId": -32000
+        },
+        {
+          "id": -32540,
+          "alternateId": "AV",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AV.png",
+          "name": "Avianca",
+          "allianceId": -31999
+        },
+        {
+          "id": -32171,
+          "alternateId": "B6",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/B6.png",
+          "name": "jetBlue",
+          "allianceId": 0
+        },
+        {
+          "id": -31688,
+          "alternateId": "Y4",
+          "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/Y4.png",
+          "name": "Volaris",
+          "allianceId": 0
+        }
+      ],
+      "stopPrices": {
+        "direct": {
+          "isPresent": false
+        },
+        "one": {
+          "isPresent": true,
+          "formattedPrice": "$339",
+          "rawPrice": 339
+        },
+        "twoOrMore": {
+          "isPresent": true,
+          "formattedPrice": "$515",
+          "rawPrice": 515
+        }
+      },
+      "alliances": [
+        {
+          "id": -32000,
+          "name": "OneWorld"
+        },
+        {
+          "id": -31999,
+          "name": "Star Alliance"
+        },
+        {
+          "id": -31998,
+          "name": "SkyTeam"
+        }
+      ]
+    },
+    "flightsSessionId": "82f06b78-4ac6-49c6-9edc-6d7cdc8febd1",
+    "destinationImageUrl": "https://content.skyscnr.com/m/3719e8f4a5daf43d/original/Flights-Placeholder.jpg"
+  }
+}

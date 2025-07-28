@@ -1,7 +1,7 @@
 const skyScrapperApiKey = import.meta.env.VITE_SKY_SCRAPPER_API_KEY;
 const skyScrapperHost = import.meta.env.VITE_SKY_SCRAPPER_HOST;
 
-const url = `https://${skyScrapperHost}/api/v1/`;
+const url = `https://${skyScrapperHost}/api/`;
 
 export async function fetcher<T>({
   endpoint,

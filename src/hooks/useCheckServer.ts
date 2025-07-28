@@ -7,7 +7,7 @@ export const useCheckServer = () => {
     queryKey: ["checkServer"],
     queryFn: () =>
       fetcher<CheckServerResponse>({
-        endpoint: "checkServer",
+        endpoint: "v1/checkServer",
         options: {
           method: "GET",
         },

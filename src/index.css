@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2pwCIhM907-0x.woff2")
+        format("woff2");
+}
