@@ -24,7 +24,7 @@ export const useSearchFlights = (params: SearchFlightsParams | undefined) => {
   });
 
   return useQuery({
-    queryKey: ["searchFlight"],
+    queryKey: ["searchFlight", params],
     queryFn: () =>
       fetcher<SearchFlightQueryResult>({
         endpoint: `v2/flights/searchFlights?${searchParams.toString()}`,
